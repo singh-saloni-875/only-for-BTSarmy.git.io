@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(28, 26, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: centre;
+    display: grid;
+}
+
+button {
+    padding: 0 5px;
+    margin-top: 400px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #770071b9;
+    color: #e4d5f1;
+     border: 1px solid #903afb; 
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 600px) {
+    container-fluid {
+        height: 100vh;
+    }
+}
